@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Olimpics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Patrick+Hand:400">
+</head>
+<body>
+    <div class="site-container">
+        <header class="site-header">
+        <div class="overlay"></div>
+        <h1 class="site-title">Olimpics</h1>
+            <!-- <img class="header-image" src="images/header-image.jpeg" alt="Olimpics"> -->
+        </header>
+    <div class="content">
+        <div class="text-content">
+            <h2 class="content-title">Olimpics or Olimpic Games</h2>
+            <p class="content-text">The modern Olympic Games or Olympics (French: Jeux olympiques)[a][1] are the leading international sporting events featuring summer and winter sports competitions in which thousands of athletes from around the world participate in a variety of competitions.</p>
+        </div>
+    <div class="image">
+            <div class="image">
+                <div class="image" style="background-image: url(file:///C:/Users/aleks/OneDrive/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/olimpics1.webp);"></div>
+            </div>
+    <div class="list">
+        <h2>Olimpics sports list</h2>
+
+        <ul>
+          <li>Acrobatic Gymnastics
+          <li>Acrobatic Gymnastics
+            <li>Alpine Skiing</li>
+            <li>Archery</li>
+            <li>Artistic Gymnastics</li>
+            <li>Artistic Swimming</li>
+            <li>Athletics</li>
+            <li>Badminton</li>
+            <li>Baseball Softball</li>
+            <li>Basketball</li>
+            <li>Beach Handball</li>
+            <li>Beach Volleyball</li>
+            <li>Biathlon</li>
+            <li>Bobsleigh</li>
+            <li>Boxing</li>
+            <li>Breaking</li>
+            <li>Canoe Flatwater</li>
+            <li>Canoe Slalom</li>
+            <li>Cross-Country Skiing</li>
+            <li>Curling</li>
+            <li>Cycling BMX Freestyle</li>
+            <li>Cycling BMX Racing</li>
+            <li>Cycling Mountain Bike</li>
+            <li>Cycling Road</li>
+            <li>Cycling Track</li>
+            <li>Diving</li>
+            <li>Equestrian</li>
+            <li>Fencing</li>
+            <li>Figure Skating</li>
+            <li>Football</li>
+            <li>Freestyle Skiing</li>
+            <li>Futsal</li>
+            <li>Golf</li>
+            <li>Handball</li>
+            <li>Hockey</li>
+            <li>Ice Hockey</li>
+            <li>Judo</li>
+            <li>Karate</li>
+            <li>Luge</li>
+            <li>Marathon Swimming</li>
+            <li>Modern Pentathlon</li>
+            <li>Nordic Combined</li>
+            <li>Rhythmic Gymnastics</li>
+            <li>Rhythmic Gymnastics</li>
+            <li>Roller Speed Skating</li>
+            <li>Rowing</li>
+            <li>Rugby Sevens</li>
+            <li>Saling</li>
+            <li>Shooting</li>
+            <li>Short Track Speed Skating</li>
+            <li>Skateboarding</li>
+            <li>Skeleton</li>
+            <li>Ski Jumping</li>
+            <li>Ski Mountaineering</li>
+            <li>Snowboard</li>
+            <li>Speed Skating</li>
+            <li>Sport Climbing</li>
+            <li>Surfing</li>
+            <li>Swimming</li>
+            <li>Table Tennis</li>
+            <li>Table Tennis</li>
+            <li>Taekwondo</li>
+            <li>Tennis</li>
+            <li>Trampoline</li>
+            <li>Triathlon</li>
+            <li>Volleyball</li>
+            <li>Water Polo</li>
+            <li>Weightlifting</li>
+            <li>Wrestling</li>
+          
+        </ul>   
+        <div class="image">
+            <div class="image" style="background-image: url(https://img.koreatimes.co.kr/upload/newsV2/images/201909/f0efa269587f4807b1fd28e2022fd97b.jpg/dims/resize/740/optimize);"></div>
+        </div>
