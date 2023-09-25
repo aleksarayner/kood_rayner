@@ -14,11 +14,11 @@
     <div class="content">
         <div class="text-content">
             <h2 class="content-title">Olimpics or Olimpic Games</h2>
-            <p class="content-text">The modern Olympic Games or Olympics (French: Jeux olympiques)[a][1] are the leading international sporting events featuring summer and winter sports competitions in which thousands of athletes from around the world participate in a variety of competitions.</p>
+            <p class="content-text">The modern Olympic Games or Olympics (French: Jeux olympiques) are the leading international sporting events featuring summer and winter sports competitions in which thousands of athletes from around the world participate in a variety of competitions.</p>
         </div>
     <div class="image">
             <div class="image">
-                <div class="image" style="background-image: url(file:///C:/Users/aleks/OneDrive/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/olimpics1.webp);"></div>
+                <div class="image" style="image: url(file:///C:/Users/aleks/OneDrive/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/olimpics1.webp);"></div>
             </div>
     <div class="list">
         <h2>Olimpics sports list</h2>
@@ -96,8 +96,67 @@
           
         </ul>   
         <div class="image">
-            <div class="image" style="background-image: url(https://img.koreatimes.co.kr/upload/newsV2/images/201909/f0efa269587f4807b1fd28e2022fd97b.jpg/dims/resize/740/optimize);"></div>
+            <div class="image" style="image: url(https://img.koreatimes.co.kr/upload/newsV2/images/201909/f0efa269587f4807b1fd28e2022fd97b.jpg/dims/resize/740/optimize);"></div>
         </div>
         <div class="image">
-            <div class="image" style="background-image: url(images/gallery-image-5.jpg);"></div>
+            <div class="image" style="image: url(https://img.olympicchannel.com/images/image/private/t_social_share_thumb/f_auto/primary/n4qxv7qvpeur6hfdvfyw);"></div>
         </div>
+        <style>
+        body {
+            background: rgb(91, 151, 168);
+            font-family: 'Pangolin', cursive;
+            font-weight: 400;
+            line-height: 1.75;
+            color: #2a2acf;
+          }
+          
+          p {margin-bottom: 1rem;}
+          
+          h1, h2, h3, h4, h5 {
+            margin: 3rem 0 1.38rem;
+            font-family: 'Pangolin', cursive;
+            font-weight: 400;
+            line-height: 1.3;
+          }
+          
+          h1 {
+            margin-top: 0;
+            font-size: 3.052rem;
+          }
+          
+          h2 {font-size: 2.441rem;}
+          
+          h3 {font-size: 1.953rem;}
+          
+          h4 {font-size: 1.563rem;}
+          
+          h5 {font-size: 1.25rem;}
+          
+          small, .text_small {font-size: 0.8rem;}
+          
+          .image {
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.site-footer {
+    background-color: #2be6e6;
+    color: rgb(8, 3, 3);
+    text-align: center;
+    padding: 80px 0;
+    padding: 50px;
+}
+        
+        </style>
+         <footer class="site-footer">
+            <div class="footer-content">
+                    <h3>More about Olimpics</h3>
+                    <p>Check out the <a target="_blank" href="https://en.wikipedia.org/wiki/Olympic_sports"></a></p>
+                    <p>Instagram: aleksa_rayner</p>
+                </div>
+            </div>
+        </footer>
+        
