@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Olimpics</title>
     <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Patrick+Hand:400">
 </head>
 <body>
+    
     <div class="site-container">
-        <header class="site-header">
-        <div class="overlay"></div>
         <h1 class="site-title">Olimpics</h1>
-            <!-- <img class="header-image" src="images/header-image.jpeg" alt="Olimpics"> -->
         </header>
     <div class="content">
         <div class="text-content">
@@ -18,7 +17,7 @@
         </div>
     <div class="image">
             <div class="image">
-                <div class="image" style="image: url(file:///C:/Users/aleks/OneDrive/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/olimpics1.webp);"></div>
+                <div class="image": url(file:///C:/Users/aleks/OneDrive/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/olimpics1.webp);></div>
             </div>
     <div class="list">
         <h2>Olimpics sports list</h2>
@@ -95,12 +94,15 @@
             <li>Wrestling</li>
           
         </ul>   
+    </div>
+
         <div class="image">
-            <div class="image" style="image: url(https://img.koreatimes.co.kr/upload/newsV2/images/201909/f0efa269587f4807b1fd28e2022fd97b.jpg/dims/resize/740/optimize);"></div>
+            <div class="image": url(https://img.koreatimes.co.kr/upload/newsV2/images/201909/f0efa269587f4807b1fd28e2022fd97b.jpg/dims/resize/740/optimize);"></div>
         </div>
         <div class="image">
-            <div class="image" style="image: url(https://img.olympicchannel.com/images/image/private/t_social_share_thumb/f_auto/primary/n4qxv7qvpeur6hfdvfyw);"></div>
+            <div class="image": url(https://img.olympicchannel.com/images/image/private/t_social_share_thumb/f_auto/primary/n4qxv7qvpeur6hfdvfyw);"></div>
         </div>
+    </body>
         <style>
         body {
             background: rgb(91, 151, 168);
@@ -142,13 +144,15 @@
     background-repeat: no-repeat;
     margin: 10px;
 }
-.site-footer {
+
+         .site-footer {
     background-color: #2be6e6;
     color: rgb(8, 3, 3);
     text-align: center;
     padding: 80px 0;
     padding: 50px;
-}
+}    
+        .list {font-size: 1.1rem;}
         
         </style>
          <footer class="site-footer">
