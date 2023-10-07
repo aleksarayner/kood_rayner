@@ -1,0 +1,41 @@
+
+body {
+    background-color: #f2f2f2; /* Lehe taustavärv */
+    font-size: 16px;
+}
+
+.container {
+    background-color: white; /* Konteineri taustavärv */
+    padding: 10px;
+    border-radius: 10px; /* Ümardatud nurkadega konteiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Vari konteineri ümber */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 veergu võrdsete laiustega */
+    gap: 10px; /* Vahe kastide vahel */
+}
+
+/* Kasti stiil */
+.box {
+    display: flex;
+    align-items: center; /* Vertikaalne joondus */
+    justify-content: center; /* Horisontaalne joondus */
+    padding: 20px;
+    font-size: 1.5rem; /* Fonti suurus */
+    border-radius: 10px
+}
+
+/* Siniste kastide stiil */
+.box:nth-child(even) {
+    background-color: #3498db; /* Siniste kastide taustavärv */
+    color: white; /* Teksti värv */
+    font-family: 'Roboto', sans-serif; /* Siniste kastide fonditüüp */
+}
+
+/* Punaste kastide stiil */
+.box:nth-child(odd) {
+    background-color: #e74c3c; /* Punaste kastide taustavärv */
+    color: white; /* Teksti värv */
+    font-family: 'Monotype Corsiva', cursive; /* Punaste kastide fonditüüp */
+}
+
+
