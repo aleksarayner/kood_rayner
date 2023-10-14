@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number generator</title>
+</head>
+<body>
+    <h1>Number generator</h1>
+
+    <script>
+        
+const minNumber = 1;
+const maxNumber = 100;
+const randomNumber = Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
+let attempts = 0;
+
+function guessNumber() {
+    const userGuess = parseInt(prompt(`Guess the number between ${minNumber} and ${maxNumber}:`));
+    attempts++;
+
+    if (isNaN(userGuess)) {
+        alert("Please enter a valid number.");
+    } else if (userGuess < minNumber || userGuess > maxNumber) {
+        alert(`Please enter a number between ${minNumber} and ${maxNumber}.`);
+    } else if (userGuess < randomNumber) {
+        alert("The number is higher. Try again.");
+        guessNumber();
+    } else if (userGuess > randomNumber) {
+        alert("The number is lower. Try again.");
+        guessNumber();
+    } else {
+        alert(`Congratulations! You guessed the number ${randomNumber} in ${attempts} attempts.`);
+    }
+}
+
+guessNumber();
+
+    </script>
