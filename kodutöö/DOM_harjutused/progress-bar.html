@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <style>
+        #progress-bar {
+            width: 300px;
+            height: 20px;
+            border: 1px solid #ccc;
+            margin: 20px;
+            position: relative;
+        }
+
+        #progress-fill {
+            height: 100%;
+            background-color: #4CAF50;
+            width: 0; 
+            transition: width 0.3s ease;
+        }
+
+        #progress-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="progress-bar">
+        <div id="progress-fill"></div>
+        <div id="progress-text">0%</div>
+    </div>
+
+    <button onclick="progress()">Suurenda</button>
+
+    <script>
+    function progress() {
+        var progressBarFill = document.getElementById('progress-fill');
+        var progressText = document.getElementById('progress-text');
+        var currentWidth = parseInt(progressBarFill.style.width, 10);
+        var increment = 10;
+        var newWidth = currentWidth + increment;
+        if (newWidth <= 100) {
+            progressBarFill.style.width = newWidth + '%';
+            progressText.textContent = newWidth + '%';
+        } else {
+            progressBarFill.style.width = '0%';
+            progressText.textContent = '0%';
+        }
+    }
+    </script>
+
+</body>
+</html>
