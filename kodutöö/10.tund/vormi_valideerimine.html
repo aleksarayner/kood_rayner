@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registreerimisvormi valideerimine</title>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Registreerimisvorm</h2>
+
+<form id="registreerimisVorm" action="#" method="post">
+   
+    <input type="text" id="kasutajanimi" name="kasutajanimi" required>
+    <span id="kasutajanimiError" class="error"></span><br>
+
+    
+    <input type="email" id="email" name="email" required>
+    <span id="emailError" class="error"></span><br>
+
+    
+    <input type="password" id="parool" name="parool" required>
+    <span id="paroolError" class="error"></span><br>
+
+    <input type="submit" value="Registreeri">
+</form>
+
+</body>
+</html>

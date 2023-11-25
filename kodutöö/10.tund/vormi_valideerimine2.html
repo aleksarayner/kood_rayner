@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registreerimisvormi valideerimine</title>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Registreerimisvorm</h2>
+
+<form id="registreerimisVorm" onsubmit="validateForm(event)">
+    
+    <input type="text" id="kasutajanimi" name="kasutajanimi" required>
+    <span id="kasutajanimiError" class="error"></span><br>
+
+    
+    <input type="email" id="email" name="email" required>
+    <span id="emailError" class="error"></span><br>
+
+    
+    <input type="password" id="parool" name="parool" required>
+    <span id="paroolError" class="error"></span><br>
+
+    
+    <input type="password" id="paroolKinnitus" name="paroolKinnitus" required>
+    <span id="paroolKinnitusError" class="error"></span><br>
+
+    <button type="button" onclick="validatePassword()">Submit</button>
+</form>
+
+<script>
+    function validateForm(event) {
+        
+        document.getElementById('kasutajanimiError').innerText = "";
+        document.getElementById('emailError').innerText = "";
+        document.getElementById('paroolError').innerText = "";
+        document.getElementById('paroolKinnitusError').innerText = "";
+
+        
+        const kasutajanimi = document.getElementById('kasutajanimi').value;
+        const email = document.getElementById('email').value;
+        const parool = document.getElementById('parool').value;
+        const paroolKinnitus = document.getElementById('paroolKinnitus').value;
+
+        
+        if (kasutajanimi.length < 5) {
+            document.getElementById('kasutajanimiError').innerText = "Kasutajanimi peab olema vähemalt 5 tähemärki pikk.";
+            event.preventDefault();
+        }
+
+        
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!email.match(emailRegex)) {
+            document.getElementById('emailError').innerText = "Sisestage kehtiv e-posti aadress.";
+            event.preventDefault();
+        }
+
+        
+        if (parool.length < 8) {
+            document.getElementById('paroolError').innerText = "Parool peab olema vähemalt 8 tähemärki pikk.";
+            event.preventDefault();
+        }
+
+        
+        if (parool !== paroolKinnitus) {
+            document.getElementById('paroolKinnitusError').innerText = "Paroolid ei kattu.";
+            event.preventDefault();
+        }
+    }
+</script>
+
+</body>
+</html>
