@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 10;
+    padding: 0;
+    background-color: rgb(223, 91, 25) 133, 98;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #d36f6f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #100909;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1a1010;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#countryInfo {
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}
