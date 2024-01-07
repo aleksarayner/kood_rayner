@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Marie Curie</title>
+</head>
+<body>
+  <header>
+    <h1>Pictures of Marie Curie</h1>
+  </header>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+    <a href="/profile">Profile</a>
+  </nav>
+
+  <section>
+    <h2>Pictures</h2>
+    <div class="picture-container">
+      <img src="images/curie2.jpg" width="330" height="448">
+      <p>Marie Curie 1920</p>
+    </div>
+
+    <div class="picture-container">
+      <img src="images/curie1.jpg" width="330" height="265">
+      <p>Pierre and Marie Curie</p>
+    </div>
+
+    <div class="picture-container">
+      <img src="images/curie3.jpg"  width="255" height="361">
+      <p>Marie Curie Nobel Prize portrait</p>
+    </div>
+
+    <div class="picture-container">
+      <img src="images/curie4.jpg"  width="255" height="340">
+      <p>Marie Curie monument in Lublin</p>
+    </div>
+
+    <!-- Display weather information -->
+    <% if (weather) { %>
+      <h3>Weather in Paris:</h3>
+      <p>Temperature: <%= weather.temperature %>°C</p>
+    <% } else { %>
+      <p>Unable to fetch weather information.</p>
+    <% } %>
+  </section>
+</body>
+</html>
